@@ -1,0 +1,71 @@
+body,html
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.allcontent{
+    height: 100%;
+}
+
+.content
+{
+    margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 1%;
+    box-shadow: 0 0 30px black;
+    background-color: white;
+    min-height: 95%;
+}
+
+a
+{
+    color: inherit;
+}
+
+.info{
+    margin-top: 2%;
+}
+
+.nav > li {
+ background-color: white;
+}
+
+.nav > li.selected {
+ background-color: #F8F8F8;
+}
+
+.nav > li > a:hover{
+ background-color: #F8F8F8;
+}
+
+.nav > li:active > a{
+ background-color: #F8F8F8;
+}
+
+div.sometext{
+    min-height: 50%;
+}
+
+p.answers{
+    color: grey;
+}
+
+a.resume{
+    color:blue;
+}
+
+div.project{
+    outline-style: solid;
+    outline-color: lightgray;
+    outline-width:medium;
+	padding: 1%;
+	padding-top: 2%;
+}
+
+.contacts > p{
+    font-size: 100%;
+	margin-top: 7%
+}
